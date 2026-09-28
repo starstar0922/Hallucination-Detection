@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "detector": "mock",
+    "time": "2026-09-28 21:39:34",
+    "total": 20,
+    "hallucination_count": 8
+  },
+  "results": [
+    {
+      "id": "h01",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h02",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h03",
+      "is_hallucination": true,
+      "type": "能力越界",
+      "severity": "高",
+      "evidence": "知识库:无（客服系统未接入物流查询接口）...;回复声称已执行操作"
+    },
+    {
+      "id": "h04",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h05",
+      "is_hallucination": true,
+      "type": "政策编造",
+      "severity": "高",
+      "evidence": "知识库标明无此优惠,回复却声称有"
+    },
+    {
+      "id": "h06",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h07",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h08",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h09",
+      "is_hallucination": true,
+      "type": "事实编造",
+      "severity": "高",
+      "evidence": "知识库未标注该参数,回复却肯定支持"
+    },
+    {
+      "id": "h10",
+      "is_hallucination": true,
+      "type": "能力越界",
+      "severity": "高",
+      "evidence": "知识库:无（客服系统未接入退款进度查询接口）...;回复声称已执行操作"
+    },
+    {
+      "id": "h11",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h12",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h13",
+      "is_hallucination": true,
+      "type": "安全误导",
+      "severity": "紧急",
+      "evidence": "知识库提示孕妇需咨询医生,回复却说可用/放心"
+    },
+    {
+      "id": "h14",
+      "is_hallucination": true,
+      "type": "能力越界",
+      "severity": "高",
+      "evidence": "知识库:无（客服系统未接入订单修改接口，需人工后台操作）...;回复声称已执行操作"
+    },
+    {
+      "id": "h15",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h16",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h17",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    },
+    {
+      "id": "h18",
+      "is_hallucination": true,
+      "type": "能力越界",
+      "severity": "高",
+      "evidence": "知识库:无（客服系统不具备工单升级功能，需转人工处理）...;回复声称已执行操作"
+    },
+    {
+      "id": "h19",
+      "is_hallucination": true,
+      "type": "政策编造",
+      "severity": "高",
+      "evidence": "知识库标明无此优惠,回复却声称有"
+    },
+    {
+      "id": "h20",
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": ""
+    }
+  ]
+}

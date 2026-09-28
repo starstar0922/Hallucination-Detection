@@ -1,0 +1,11 @@
+# 密钥与本地配置(绝对不要提交到 GitHub)
+.env
+config.local.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/

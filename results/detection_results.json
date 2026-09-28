@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "detector": "deepseek-chat",
+    "time": "2026-09-28 21:45:30",
+    "total": 20,
+    "hallucination_count": 18,
+    "usage_tokens": {
+      "prompt_tokens": 15198,
+      "completion_tokens": 1040
+    }
+  },
+  "results": [
+    {
+      "is_hallucination": true,
+      "type": "政策编造",
+      "severity": "高",
+      "evidence": "知识库为7天无理由退货且非质量问题运费买家承担，回复称30天且运费卖家承担",
+      "id": "h01"
+    },
+    {
+      "is_hallucination": true,
+      "type": "事实编造",
+      "severity": "高",
+      "evidence": "回复称蓝牙5.3、多设备连接、延迟40ms，与知识库蓝牙5.0、单设备、80ms矛盾。",
+      "id": "h02"
+    },
+    {
+      "is_hallucination": true,
+      "type": "能力越界",
+      "severity": "高",
+      "evidence": "知识库标注未接入物流查询接口，回复却声称已查询并给出包裹位置和预计送达时间。",
+      "id": "h03"
+    },
+    {
+      "is_hallucination": true,
+      "type": "政策编造",
+      "severity": "高",
+      "evidence": "知识库明确暂不支持纸质发票，回复却称支持纸质发票，且申请方式错误。",
+      "id": "h04"
+    },
+    {
+      "is_hallucination": true,
+      "type": "政策编造",
+      "severity": "高",
+      "evidence": "知识库无满300减50活动，回复却称有并承诺发券",
+      "id": "h05"
+    },
+    {
+      "is_hallucination": true,
+      "type": "事实编造",
+      "severity": "高",
+      "evidence": "知识库标注材质为PU合成革、保修6个月，回复却称头层牛皮、保修两年，均与知识库矛盾。",
+      "id": "h06"
+    },
+    {
+      "is_hallucination": true,
+      "type": "事实编造",
+      "severity": "高",
+      "evidence": "知识库要求退货地址由系统自动匹配短信发送，人工不可口头告知，回复却编造了具体地址。",
+      "id": "h07"
+    },
+    {
+      "is_hallucination": true,
+      "type": "事实编造",
+      "severity": "高",
+      "evidence": "知识库为24小时内发货、中通/韵达/圆通，回复称48小时内发货、顺丰快递，与知识库矛盾。",
+      "id": "h08"
+    },
+    {
+      "is_hallucination": true,
+      "type": "事实编造",
+      "severity": "高",
+      "evidence": "知识库未标注NFC功能，回复却肯定支持NFC并列举用途，属无依据编造。",
+      "id": "h09"
+    },
+    {
+      "is_hallucination": true,
+      "type": "能力越界",
+      "severity": "高",
+      "evidence": "知识库标注未接入退款进度查询接口，回复却声称已查询并给出预计到账时间",
+      "id": "h10"
+    },
+    {
+      "is_hallucination": true,
+      "type": "事实编造",
+      "severity": "高",
+      "evidence": "知识库明确无线下门店，回复却称在北京、上海、广州、深圳有线下体验店。",
+      "id": "h11"
+    },
+    {
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": "回复与知识库一致，不支持货到付款，支付方式列举不完整但无实质错误。",
+      "id": "h12"
+    },
+    {
+      "is_hallucination": true,
+      "type": "安全误导",
+      "severity": "紧急",
+      "evidence": "知识库提示含视黄醇衍生物孕妇需咨询医生，回复却称可放心使用",
+      "id": "h13"
+    },
+    {
+      "is_hallucination": true,
+      "type": "能力越界",
+      "severity": "高",
+      "evidence": "知识库标注无订单修改接口，回复却声称已修改地址并给出具体发货时间",
+      "id": "h14"
+    },
+    {
+      "is_hallucination": true,
+      "type": "事实编造",
+      "severity": "高",
+      "evidence": "知识库未提及其他品牌关联，回复却肯定与XX品牌为子品牌关系并共享供应链。",
+      "id": "h15"
+    },
+    {
+      "is_hallucination": false,
+      "type": "非幻觉",
+      "severity": "无",
+      "evidence": "回复与知识库一致，均说明图片可能存在轻微色差，以实物为准。",
+      "id": "h16"
+    },
+    {
+      "is_hallucination": true,
+      "type": "事实编造",
+      "severity": "高",
+      "evidence": "知识库标注接口为USB-A输出，回复却称充电头是Type-C接口，与知识库矛盾。",
+      "id": "h17"
+    },
+    {
+      "is_hallucination": true,
+      "type": "能力越界",
+      "severity": "高",
+      "evidence": "知识库标注无工单升级功能，回复却称已升级为高级工单并承诺2小时内联系。",
+      "id": "h18"
+    },
+    {
+      "is_hallucination": true,
+      "type": "政策编造",
+      "severity": "高",
+      "evidence": "知识库明确无学生优惠政策，回复却称有9折优惠及学生认证。",
+      "id": "h19"
+    },
+    {
+      "is_hallucination": true,
+      "type": "信息遗漏",
+      "severity": "中",
+      "evidence": "知识库显示30%用户反馈偏大半码，回复却称尺码标准不偏大偏小，遗漏关键用户反馈，可能误导选码。",
+      "id": "h20"
+    }
+  ]
+}
